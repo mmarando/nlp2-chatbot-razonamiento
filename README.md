@@ -16,16 +16,16 @@ El sistema mide y muestra el consumo de tokens en cada fase del proceso.
   - Permite inspeccionar el historial completo de conversaciones
 
 ## Estructura del proyecto
-El proyecto está dividido en<>
+El proyecto está dividido en:
 
-1. **`notebook.ipynb`**:
+1. **`notebook.ipynb`**
    - Notebook interactivo para realizar pruebas.
 
-2. **`streamlit_app.py`**:
+2. **`streamlit_app.py`**
    - Archivo independiente que implementa la interfaz gráfica del chatbot usando Streamlit.
    - Permite al usuario interactuar con el sistema de manera sencilla.
 
-3. **`agent.py`**:
+3. **`agent.py`**
    - Implementación central del sistema multi-agente.
    - Incluye la clase `Agent` y la función `solve_complex_question()` para orquestar el flujo de trabajo.
 
